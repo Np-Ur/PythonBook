@@ -1,7 +1,4 @@
 # PythonBook
 「Pythonと実データで遊んで学ぶ データ分析講座」 サポートページ
 
-
-* 現在準備中。
-  * Pythonコード公開済み
-  * Rコードは8月12日12時頃公開予定
+https://www.amazon.co.jp/dp/4863542836
