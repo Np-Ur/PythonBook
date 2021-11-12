@@ -6,7 +6,7 @@ https://www.amazon.co.jp/dp/4863542836
 
 # 書籍修正点
 ## 2019.12.03更新
-* 3章で使用している、国土交通省のAPIですが、URLが変更されました。以下のように、「http://」となっているURLを「https://」と変更してください。
+* Chapter3 で使用している、国土交通省のAPIですが、URLが変更されました。以下のように、「http://」となっているURLを「https://」と変更してください。
   * 第2版では修正済みです。
 
 ## 2020.06.25更新
@@ -23,3 +23,20 @@ https://www.amazon.co.jp/dp/4863542836
 ```python
 logit = LogisticRegression(solver='liblinear')
 ```
+
+* なお、本修正は 第3版では修正済みです。
+
+
+## 2021.11.11更新
+
+* Chapter6 P200のRMSE計算について、結果は変わっていませんが、計算順序が定義と異なっているため、以下に修正をお願いいたします。
+
+![texclip20211112141247](https://user-images.githubusercontent.com/43558230/141413796-3a7f8c98-0a31-41f7-baf9-92f177411418.png)
+
+
+* Chapter P201の「評価指標としてRMEを採用した場合、さまざまな回帰モデルを比較し、その中でMAE値が最も小さいモデルが良い、と判断されます。」のRMEは「MAE」の誤りです。
+* Chapter6 P201のMAE計算について、結果は変わっていませんが、計算順序が定義と異なっているため、以下に修正をお願いいたします。
+
+![texclip20211112142108](https://user-images.githubusercontent.com/43558230/141414206-9f3fda8c-4352-4f6d-a80d-2101ceff8204.png)
+
+
